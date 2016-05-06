@@ -1,0 +1,239 @@
+*{outline: 1px solid rgba(255,0,0,0.4);}
+
+
+body{
+    background: #1B2244;
+}
+.container{
+    background: white;
+}
+.logo img{
+    height: 110px;
+    width: 110px;
+    margin: 0 auto;
+}
+#header {
+                margin:auto;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            
+            ul, ol {
+                list-style:none;
+            }
+            .logo{
+                margin-left: 40px;
+            }
+            .menu{
+                margin-left: 0px;
+                padding-right: 0;
+
+
+            }
+            .nav > li {
+                float:left;
+                margin-top:40px;
+                width:25%;
+                text-align: center;
+                
+            }
+            
+            .nav li .lista{
+            margin-left: 20px;
+             
+            }
+            .nav li a {
+                background-color:#1B2244;
+                color:#fff;
+                text-decoration:none;
+                padding:20px ;
+                display:block;
+            }
+            .nav .unico a{
+                background-color:#1B2244;
+                color:#fff;
+                text-decoration:none;
+                padding:11px ;
+                display:block;
+            }
+            .nav li a:hover {
+                background-color:#434343;
+            }
+            
+            .nav li ul {
+                display:none;
+                position:absolute;
+                min-width:200px;
+            }
+            
+            .nav li:hover > ul {
+                display:block;
+            }
+            
+            .nav li ul li {
+                position:relative;
+            }
+            
+            .nav li ul li ul {
+                right:-140px;
+                top:0px;
+            }
+
+ .info-ubi p:first-child{
+	font-size: 10px;
+	padding-right: 54px;
+	padding-bottom: 20px;
+ }
+ .info-ubi h2{
+ 	font-size: 20px;
+ 	padding-bottom: 10px;
+ 	padding-top: 10px;
+ }
+ .info-ubi {
+ 	padding-top: 50px;
+    margin-bottom: 50px;
+ }
+ .info-ubi img{
+    width: 100%;
+ }
+  
+.input-group{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.container{
+	background: white;
+	padding-bottom: 40px;
+}
+.inves{
+	
+	background:url(http://thumbs.dreamstime.com/z/trabajos-de-investigaci%C3%B3n-1672413.jpg);
+	height: 300px;
+	padding-top: 50px;
+	padding-left: 50px;
+	margin-top: 40px;
+
+}
+.contenedor-formulario {
+  	height: 375px;
+  	width: 100%;
+  	color: #f2f2f2;
+  	padding: 20px; }
+.contenedor-formulario h3{
+	color: #19264a;
+    padding-bottom: 25px;
+    font-size: 30px;
+  }
+.contenedor-formulario .formulario {
+    width: 100%;
+    margin: auto; }
+ .contenedor-formulario .inves .formulario{
+ 	width: 80%;
+ 	height: 100px;
+ }
+.contenedor-formulario .formulario .input-group {
+    position: relative;
+    margin-bottom: 20px; }
+.contenedor-formulario .formulario .input-group input[type="text"],
+ .contenedor-formulario .formulario .input-group input[type="email"]{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #1a2952;
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border: none;
+    border: 2px solid #9aa3ba; }
+
+
+.contenedor-formulario .formulario .input-group input[name="mensaje"]{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #1a2952;
+    width: 100%;
+    height: 90px;
+    outline: none;
+    background: none;
+    border: none;
+    border: 2px solid #9aa3ba; }
+  .contenedor-formulario .inves .formulario .input-group input[type="text"]
+ {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #000317;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding: 5px;
+    background: none;
+    border: none;
+    border: 5px solid #9aa3ba;
+    border-radius: 10px;
+ }  
+
+.contenedor-formulario .formulario .input-group input[type="text"]:focus, .contenedor-formulario .formulario .input-group input[type="text"]:active,
+.contenedor-formulario .formulario .input-group input[type="email"]:focus,
+.contenedor-formulario .formulario .input-group input[type="email"]:active{
+    outline: none;
+    border-bottom: 10px solid #1a2952; }
+      
+.contenedor-formulario .formulario .input-group label {
+    color: #303F9F; }
+.contenedor-formulario .formulario .input-group label.label {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    position: absolute;
+    top: 9px;
+    left: 0; 
+    }
+ .contenedor-formulario .inves .formulario .input-group label.label {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    position: absolute;
+    top: 9px;
+    left: 0; 
+    } 
+
+.contenedor-formulario .inves .formulario .input-group label.label.active {
+    top: -12px;
+    font-size: 13px;
+    line-height: 12px;
+    color: #7f8185; }  
+.contenedor-formulario .formulario .input-group label.label.active {
+    top: -12px;
+    font-size: 13px;
+    line-height: 12px;
+    color: #7f8185; }
+.contenedor-formulario .inves .formulario .input-group.error label {
+    color: #D32F2F; }
+.contenedor-formulario .inves .formulario .input-group.error label:hover {
+    background: rgba(211, 47, 47, 0.2); }
+.contenedor-formulario .inves .formulario .input-group.error label:before {
+    border: 3px solid #D32F2F; }
+.contenedor-formulario .inves .formulario input[type="submit"] {
+    background: #1a2952;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+.contenedor-formulario .inves .formulario input[type="submit"]:hover {
+    background: #293c70; }
+
+

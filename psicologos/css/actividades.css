@@ -1,0 +1,88 @@
+body{
+	background: #1B2244;
+}
+.container{
+	background: white;
+}
+.logo img{
+	height: 110px;
+	width: 110px;
+	margin: 0 auto;
+}
+#header {
+				margin:auto;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			.logo{
+				margin-left: 40px;
+			}
+			.menu{
+				margin-left: 0px;
+				padding-right: 0;
+
+
+			}
+			.nav > li {
+				float:left;
+				margin-top:40px;
+				width:25%;
+				text-align: center;
+				
+			}
+			
+			.nav li .lista{
+            margin-left: 20px;
+             
+			}
+			.nav li a {
+				background-color:#1B2244;
+				color:#fff;
+				text-decoration:none;
+				padding:20px ;
+				display:block;
+			}
+			.nav .unico a{
+				background-color:#1B2244;
+				color:#fff;
+				text-decoration:none;
+				padding:11px ;
+				display:block;
+			}
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:200px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+
+.curso, .seminario, .taller{
+	height: 400px;
+	widows: 300px;
+	background: #AAABAB;
+	border: 5px solid #878A87;
+	border-radius: 8px 8px 8px 8px;
+	margin-left:60px;
+	margin-top: 10px; 
+}
+

@@ -1,0 +1,197 @@
+/* Biblioteca-------------------------
+--------------------------------------
+-------------------------------------- */
+
+body{
+    background: #1B2244;
+}
+.container{
+    background: #EEECE1;
+}
+.logo img{
+    height: 110px;
+    width: 110px;
+    margin: 0 auto;
+}
+#header {
+                margin:auto;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            
+            ul, ol {
+                list-style:none;
+            }
+            .logo{
+                margin-left: 40px;
+            }
+            .menu{
+                margin-left: 0px;
+                padding-right: 0;
+
+
+            }
+            .nav > li {
+                float:left;
+                margin-top:40px;
+                width:25%;
+                text-align: center;
+                
+            }
+            
+            .nav li .lista{
+            margin-left: 20px;
+             
+            }
+            .nav li a {
+                background-color:#1B2244;
+                color:#EEECE1;
+                text-decoration:none;
+                padding:20px ;
+                display:block;
+            }
+            .nav .unico a{
+                background-color:#1B2244;
+                color:#EEECE1;
+                text-decoration:none;
+                padding:11px ;
+                display:block;
+            }
+            .nav li a:hover {
+                background-color:#434343;
+            }
+            
+            .nav li ul {
+                display:none;
+                position:absolute;
+                min-width:200px;
+            }
+            
+            .nav li:hover > ul {
+                display:block;
+            }
+            
+            .nav li ul li {
+                position:relative;
+            }
+            
+            .nav li ul li ul {
+                right:-140px;
+                top:0px;
+            }
+
+/* fin de menu------------------------*/
+
+.biblioteca h2, .ensayos h2{
+color: #F79646;
+font-family:Arial, Helvetica, sans-serif;
+margin: 25px;
+
+}
+
+.revistas{
+   background:#9BBB59;
+    border-radius: 8px 8px 8px 8px;
+    margin: 15px; 
+    height: 300px;
+}
+.revistas .imagen{
+    
+    width: 200px;
+    height: 200px;
+
+}
+.revistas div img{
+    width: 100%;
+     margin-top: 15px;
+     margin-left: 360px;
+ }
+.imagen .transparente{
+    width: 250px;
+    height: 60px;
+    background: #C0504D;
+    padding: 5px;
+    margin-left: 330px;
+    margin-top: 5px;
+}
+
+.imagen .transparente p{
+    color:#EEECE1; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.ensayos{
+    background:#4BACC6;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 15px; 
+    height: 300px;
+    width: 970px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.ensayos .uno{
+    width: 210px;
+    height: 200px;
+    margin-left: 90px;
+}
+
+.ensayos  .dos{
+    width: 210px;
+    height: 200px;
+    margin-left: 150px;
+}
+
+.ensayos .uno img{
+    width: 100%;
+}
+.ensayos .dos img{
+    width: 100%;
+}
+ .uno .transparente p{
+    color:#EEECE1; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+.dos .transparente p{
+    color:#EEECE1; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+.uno .transparente{
+    width: 250px;
+    height: 60px;
+    background: #C0504D;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.dos .transparente{
+    width: 250px;
+    height: 60px;
+    background: #C0504D;
+    padding: 5px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.va{
+    height: 50px;
+}
+
+div.background {
+    background: #1B2244 repeat;
+    width: 100%;
+    height: 40px;
+  }
+
+
+.background p {
+    margin-top:5px;
+    font-weight: bold;
+    color: #EEECE1;
+    font-size: 13px;
+}
