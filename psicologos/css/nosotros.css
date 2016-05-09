@@ -1,0 +1,153 @@
+
+body{
+	background: #1B2244;
+}
+.container{
+	background: white;
+}
+.logo img{
+	height: 110px;
+	width: 110px;
+	margin: 0 auto;
+}
+#header {
+				margin:auto;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			.logo{
+				margin-left: 40px;
+			}
+			.menu{
+				margin-left: 0px;
+				padding-right: 0;
+
+
+			}
+			.nav > li {
+				float:left;
+				margin-top:40px;
+				width:25%;
+				text-align: center;
+				
+			}
+			
+			.nav li .lista{
+            margin-left: 20px;
+             
+			}
+			.nav li a {
+				background-color:#1B2244;
+				color:#fff;
+				text-decoration:none;
+				padding:20px ;
+				display:block;
+			}
+			.nav .unico a{
+				background-color:#1B2244;
+				color:#fff;
+				text-decoration:none;
+				padding:11px ;
+				display:block;
+			}
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:200px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+.yo{
+	width: 500px;
+	height: 350px;
+	padding: 10px;
+
+}
+.yo p{
+	text-align: justify;
+	font-family: comic;
+	padding: 10px 50px  50px 50px;
+	margin-left: 100px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ .imagenes {
+ 	margin-top:-300px;
+ 	width: 300px;
+ 	height: 300px;
+ 	
+ }
+ .swiper-wrapper{
+ 	position: relative;
+ }
+ .imagenes img{
+ 	border-radius: 100%;
+ }
+ .imagenes div img{
+ 	width: 300px;
+ 	height: 300px;
+ 	margin-left: 100px;
+ 	 }
+ .imagenes div {
+ 	position: absolute;
+ }
+
+ .yo h1{
+ 	margin-left: 220px;
+ 	font-family: Arial;
+ }
+ 
+ /*slider*/
+ .swiper-container {
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+
+.frase p{
+	font-size: 25px;
+	color: #AAABAB;
+	text-align: center;
+	padding: 50px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.vi div, .mi div{
+	width:300px ;
+	height:200px;
+	margin-left: 80px;
+	margin-bottom: -50px;
+}
+.vi div img, .mi div img{
+	width: 100%;
+}
+
+.vision-mision p{
+font-family:Arial, Helvetica, sans-serif;
+margin: 30px;	
+text-align: justify;
+}

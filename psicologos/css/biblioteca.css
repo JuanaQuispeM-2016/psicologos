@@ -1,0 +1,177 @@
+/* Biblioteca-------------------------
+--------------------------------------
+-------------------------------------- */
+
+body{
+    background: #E6E0F8;
+}
+.container{
+    background: white;
+}
+.logo img{
+    height: 110px;
+    width: 110px;
+    margin: 0 auto;
+}
+#header {
+                margin:auto;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            
+            ul, ol {
+                list-style:none;
+            }
+            .logo{
+                margin-left: 40px;
+            }
+            .menu{
+                margin-left: 0px;
+                padding-right: 0;
+
+
+            }
+            .nav > li {
+                float:left;
+                margin-top:40px;
+                width:25%;
+                text-align: center;
+                
+            }
+            
+            .nav li .lista{
+            margin-left: 20px;
+             
+            }
+            .nav li a {
+                background-color:#1B2244;
+                color:#fff;
+                text-decoration:none;
+                padding:20px ;
+                display:block;
+            }
+            .nav .unico a{
+                background-color:#1B2244;
+                color:#fff;
+                text-decoration:none;
+                padding:11px ;
+                display:block;
+            }
+            .nav li a:hover {
+                background-color:#434343;
+            }
+            
+            .nav li ul {
+                display:none;
+                position:absolute;
+                min-width:200px;
+            }
+            
+            .nav li:hover > ul {
+                display:block;
+            }
+            
+            .nav li ul li {
+                position:relative;
+            }
+            
+            .nav li ul li ul {
+                right:-140px;
+                top:0px;
+            }
+
+.revistas,.ensayos{
+
+height: 400px;
+margin-top: 60px;
+background: url(http://www.fondosya.com/wallpapers/estrelllas_en_el_universo-1280x960.jpg) repeat;
+}
+.revistas img{
+    width: 25%;
+    margin-top: 20px;
+    margin-left:350px;
+}
+.revistas h3{
+    color: white;
+    font-size: 25px;
+    margin: 50px;
+ }
+
+.ensayos h3{
+    color: white;
+    font-size: 25px;
+    margin: 50px;
+}
+
+.ensayos img{
+
+margin-left:0;
+margin-top: 0;
+}
+.ensayos .uno img{
+    width: 40%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.ensayos .uno ,.ensayos .dos{
+    position: absolute;
+    width: 50%;
+    margin: -2px;
+
+}
+.ensayos .uno{
+    margin-left: 80px;
+}
+.ensayos div{
+
+ position: relative;   
+}
+
+.revistas div.transparente{
+
+    height: 40px;
+    width: 300px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.revistas div.transparente p, .ensayos div.transparente p{
+    text-align: center;
+    margin: 1%;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+}
+
+.ensayos div.transparente{
+    height: 40px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+ .ensayos .uno .transparente {
+    margin-top: 230px;
+    width: 150px;
+    margin-left:95px
+ }
+ .ensayos .dos .transparente {
+    margin-top: 8px;
+    margin-left: -5px;
+    width: 340px;
+    height: 50px;
+    
+ 
+ }
+ .ensayos .dos img {
+    width: 270%;
+    margin-top: -110px;
+}
+
+
+.ensayos .dos{
+    margin-left: 350px;
+    margin-top: -150px;}

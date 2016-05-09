@@ -1,0 +1,167 @@
+body{
+	background: #1B2244;
+}
+.container{
+	background: #EEECE1;
+}
+.logo img{
+	height: 110px;
+	width: 110px;
+	margin: 0 auto;
+}
+#header {
+				margin:auto;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			.logo{
+				margin-left: 40px;
+			}
+			.menu{
+				margin-left: 0px;
+				padding-right: 0;
+
+
+			}
+			.nav > li {
+				float:left;
+				margin-top:40px;
+				width:25%;
+				text-align: center;
+				
+			}
+			
+			.nav li .lista{
+            margin-left: 20px;
+             
+			}
+			.nav li a {
+				background-color:#1B2244;
+				color:#EEECE1;
+				text-decoration:none;
+				padding:20px ;
+				display:block;
+				font-size: 18px;
+			}
+			.nav .unico a{
+				background-color:#1B2244;
+				color:#EEECE1;
+				text-decoration:none;
+				padding:8px ;
+				display:block;
+			}
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:200px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+.yo{
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	margin-left: -100px;
+
+}
+.yo p{
+	text-align: center;
+	padding: 10px 50px  50px 50px;
+	margin-left: 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #1B2244;
+	margin-bottom: 20px;
+}
+.yo h2{
+	color:#F79646; 
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left: 235px;
+
+}
+/*comienzo de slider*/
+
+.item{
+	border-radius:100%;
+	width:250px;
+	height:250px;
+	margin-top: 90px;
+	margin-left: 100px;
+}
+/*fin de slider*/
+.frase p{
+	font-size: 20px;
+	color: #EEECE1;
+	text-align: center;
+	padding: 30px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+.frase{
+background: #8064A2;
+margin: 20px;
+}
+.vi div, .mi div{
+	width:300px ;
+	height:200px;
+	margin-left: 80px;
+	margin-bottom: -50px;
+}
+.vi div img, .mi div img{
+	width: 100%;
+}
+
+.vision-mision p{
+font-family:Arial, Helvetica, sans-serif;
+margin: 30px;	
+text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.background {
+    background: #1B2244 repeat;
+    width: 100%;
+    height: 40px;
+  }
+
+
+.background p {
+    margin-top:5px;
+    font-weight: bold;
+    color: #EEECE1;
+    font-size: 13px;
+}
